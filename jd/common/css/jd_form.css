@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+	list-style: none;
+}
+div{
+	border: 0px solid red;
+	width: 100px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+
+.li01{
+	border:1px solid gray;
+	width :420px;
+	height: 44px;
+	margin-bottom: 30px;
+	padding:2px;
+	border-style:ridge;
+}
+input[type="button"]{
+	border:none;
+	background-color: #E5E5E5;
+	width: 120px;
+	height: 44px;
+}
+input[type="submit"]{
+	border:none;	
+	width: 425px;
+	height: 50px;
+	background-color: #F0282C;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+#userDiv{
+	letter-spacing: 11px;
+}
+.passwordDiv{
+	letter-spacing: 3px;
+}
+form{
+	font-size: 14px;
+	color: gray;
+}
+input{
+	width:150px;
+	height: 30px;
+	margin-top: none;
+	border-style: none;
+	
+	
+}
+	
+#vcInput{
+	width:172px;
+	margin-top: 7px;
+}
+

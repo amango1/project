@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>京东-欢迎注册</title>
+<style type="text/css">
+	#form_div {
+		border-right: 1px solid #cccccc;
+		width: 700px;
+		overflow: hidden;
+		margin: 60px 0;
+		float: left;
+		
+	}
+	
+	#enterprise_ul{
+		width:170px;
+		overflow: hidden;
+		float: left;
+		margin: 60px 100px;	
+	}
+	
+	#enterprise_ul a{
+		vertical-align: super;
+		display: inline-block;
+		margin-left: 10px;	
+	}
+	#form_ul{
+		font-size:14px;
+		width: 550px;
+		overflow: hidden;
+		border: px solid red;
+		margin-left: 100px;
+	}
+	#form_ul div{
+		border:0px solid red;
+		width: 100px;
+		display: inline-block;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#form_ul .li01{
+		border:1px solid gray;
+		width: 500px;
+		height: 44px;
+		margin-bottom: 30px;
+		padding: 2px;
+	}
+	#form_ul input[type="button"]{
+		border:none;
+		background-color: #E5E5E5;
+		width: 120px;
+		height: 44px;
+	}
+	#form_ul input[type="submit"]{
+			
+		width: 500px;
+		height: 50px;
+	
+		
+		
+	}
+	#form_ul #userDiv{
+		letter-spacing: 11px;
+	}
+	#form_ul.passwordDiv{
+		letter-spacing: 3px;
+	}
+	
+	#form_ul input{
+		width:330px;
+		height: 30px;
+		margin-top: none;
+		border: none;
+		
+	}
+
+	
+
+	</style>
+<link href="common/css/jd.css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body >
+	<div class="page">
+	  <div class="header">
+		 <div class="header_content">
+		 	 <img src="common/image/jdpicture.png"/>
+		 	 <div style="float: left;margin-top: 40px;" class="title jd_font_1">欢迎注册</div>
+			 <div style="float: right;margin-top: 70px;" class="jd_font_2">已有账号？
+				 <a href="login.html">请登录＞</a></div>
+		  </div>
+	 </div>
+
+		
+	 <div class="main">
+		 <div class="main_content">
+			<div id="form_div">
+				<form action="register_success.html" method="get"  target="_blank">
+					<ul id="form_ul">
+						<li class="li01">
+							<div id="userDiv">用户名</div><input type="text" name="userName"  placeholder="您的账户名和登录名"   autofocus/>
+						</li>
+
+						<li class="li01">
+							<div class="passwordDiv">设置密码</div><input type="password" name="password" placeholder="建议使用至少两种字符组合" />
+						</li>
+						<li class="li01">
+							<div class="passwordDiv">确认密码</div><input type="password" name="repassword" placeholder="请再次输入密码"/>
+						</li>
+						<li class="li01">
+							<div>中国0086</div><input type="text" name="phone" placeholder="建议使用常用手机" />
+						</li>
+						<li class="li01">
+							<div>手机验证码</div><input type="text" id="vcInput" style="width: 250px"  name="validateCode" placeholder="手机验证码"/> 			
+						<input type="button" value="获取验证码"/>
+						</li>
+
+						<li>
+							<input type="submit" class="jd_bt_1" value="立即注册" /> </li>			
+					</ul>
+					
+					
+	 </form>
+			 
+			 </div> 
+			<ul id="enterprise_ul">
+						<li>
+							<img src="common/image/enterprise.png"/>
+							<a href="#" class="jd_link_2">企业用户注册</a>
+						</li>
+						
+						<li style="border-top: 1px solid #cccccc; margin: 20px 0"></li>
+						<li>
+							<img src="common/image/ic.png"/>
+							<a href="#" class="jd_link_2">INTERNATIONAI<br>CUSTOMERS</a>
+						</li>
+					</ul>
+	
+			</div>
+	 </div>
+		
+		
+	<div class="footer">
+		 <div class="footer_content">
+			<ul class="menu_ul">
+				<li><a href="http:/jd.com">关于我们</a></li>
+				<li>|</li>
+				<li><a href="#">联系我们</a></li>
+				<li>|</li>
+				<li><a href="#">人才招聘</a></li>
+				<li>|</li>
+				<li><a href="#">商家入驻</a></li>
+				<li>|</li>
+				<li><a href="#">广告服务</a></li>
+				<li>|</li>
+				<li><a href="#">手机京东</a></li>
+				<li>|</li>
+				<li><a href="#">友情链接</a></li>
+				<li>|</li>
+				<li><a href="#">销售联盟</a></li>
+				<li>|</li>
+				<li><a href="#">京东社区</a></li>
+				<li>|</li>
+				<li><a href="#">京东公益</a></li>
+				<li>|</li>
+				<li><a href="#">English Site</a></li>
+
+			</ul>
+			 <div class="copyright_div">Copyright &copy; 2004-2018  京东JD.com 版权所有</div>
+		</div>
+	 </div>
+	</div>
+</body>
+</html>
